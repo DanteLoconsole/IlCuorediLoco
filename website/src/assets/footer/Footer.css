@@ -1,0 +1,30 @@
+.footer {
+    /*display: block;*/
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #e6e6e6;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.footer .email .hyperlink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .email .hyperlink:hover {
+    text-decoration: underline;
+}
+
+
+.footer .socials .instagram .logo {
+    height: 60px;
+    margin-top: 0.5rem;
+}
+
+.footer .socials .booking .logo {
+    height: 50px;
+    margin-bottom: 0.3rem;
+}
