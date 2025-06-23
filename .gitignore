@@ -2,6 +2,7 @@
 
 # dependencies
 /.idea
+/website/.idea
 /website/node_modules
 
 /.git

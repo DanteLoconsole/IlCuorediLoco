@@ -3,7 +3,7 @@ import './Header.css';
 function Header() {
     return (
         <header className="header">
-            <img src="/logo_trans.svg" alt="Logo" className="logo" />
+            <img src="/logos/logo_trans.svg" alt="Logo" className="logo" />
             <nav className="nav">
                 <a href="/">Home</a>
                 <a href="#">Info & boeken</a>
