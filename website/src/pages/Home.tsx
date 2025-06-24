@@ -1,13 +1,9 @@
 import './style/Home.css';
 import Data from '../assets/text/home.json';
-import Header from "../assets/header/Header.tsx";
-import Footer from "../assets/footer/Footer.tsx";
 
 function Home() {
     return (
         <div className="home">
-            <Header />
-
             <section className="hero">
                 <div className="introduction">
                     <h1>Welkom bij</h1>
@@ -32,8 +28,6 @@ function Home() {
                     <button type="submit">Inschrijven</button>
                 </form>
             </section>
-
-            <Footer />
         </div>
     )
 }

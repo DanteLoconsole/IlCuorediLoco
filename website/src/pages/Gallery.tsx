@@ -1,23 +1,27 @@
 import './style/Gallery.css'
-import Header from "../assets/header/Header.tsx";
-import Footer from "../assets/footer/Footer.tsx";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
+
+const imageModules :Record<string, string> = import.meta.glob('../assets/gallery/*.{jpg,jpeg,png}', {
+    eager: true, // load immediately
+    import: 'default' // get the default export (the URL)
+});
+
+const images = Object.values(imageModules).map((url) => ({
+    original: url,
+    thumbnail: url,
+}));
 
 function Gallery() {
     return (
         <div className="gallery">
-            <Header />
-
-            <section>
-                <h2>Blijf op de hoogte via onze nieuwsletter!</h2>
-                <h3>Schrijf je hier in</h3>
-                <form>
-                    <input type="text" placeholder="Naam" />
-                    <input type="email" placeholder="E-mailadres" />
-                    <button type="submit">Inschrijven</button>
-                </form>
-            </section>
-
-            <Footer />
+            <div className="slider">
+                <ImageGallery items={images} showPlayButton={true} />
+                <p>
+                    Pictures by <a href="https://example.com">Dante Loconsole</a>
+                </p>
+            </div>
         </div>
     )
 }
