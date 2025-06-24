@@ -9,7 +9,7 @@ function Header() {
                 <Link to="/">Home</Link>
                 <Link to="/">Info & boeken</Link>
                 <Link to="/gallery">Galerij</Link>
-                <Link to="/">Ons verhaal</Link>
+                <Link to="/story">Ons verhaal</Link>
                 <Link to="/activities">Wat te doen?</Link>
                 <Link to="/">Contact</Link>
             </nav>

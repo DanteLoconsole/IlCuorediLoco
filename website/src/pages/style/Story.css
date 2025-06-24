@@ -1,0 +1,13 @@
+.story {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story_content {
+    margin: 0 4rem;
+    text-align: center;
+}

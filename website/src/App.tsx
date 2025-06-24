@@ -4,6 +4,7 @@ import Gallery from './pages/Gallery.tsx';
 import Header from "./assets/header/Header.tsx";
 import Footer from "./assets/footer/Footer.tsx";
 import Activities from "./pages/Activities.tsx";
+import Story from "./pages/Story.tsx";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/activities" element={<Activities />} />
+                    <Route path="/story" element={<Story />} />
                 </Routes>
             </main>
             <Footer />
