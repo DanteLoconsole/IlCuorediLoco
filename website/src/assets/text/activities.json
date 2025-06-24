@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Activiteit 1",
+    "description": "The trekking in the enchanting mountains or rafting in the wild rivers, exploring the dense forest, canyoning in the refreshing waterfall, gliding across the highest peaks and the beautiful valley etc. are some of the adventures you can imagine.",
+    "image": "/activities/DSC_8574-HDR.jpg"
+  },
+  {
+    "title": "Activiteit 2",
+    "description": "Cycling through scenic routes, tasting local cuisine, and visiting traditional markets bring a cultural richness to your trip.",
+    "image": "/activities/DSC_8579-HDR.jpg"
+  },
+  {
+    "title": "Activiteit 3",
+    "description": "Relax with yoga retreats, wellness spas, and meditation sessions amidst nature for full rejuvenation.",
+    "image": "/activities/DSC_8584-HDR.jpg"
+  }
+]

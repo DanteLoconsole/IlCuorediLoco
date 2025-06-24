@@ -10,7 +10,7 @@ function Header() {
                 <Link to="/">Info & boeken</Link>
                 <Link to="/gallery">Galerij</Link>
                 <Link to="/">Ons verhaal</Link>
-                <Link to="/">Wat te doen?</Link>
+                <Link to="/activities">Wat te doen?</Link>
                 <Link to="/">Contact</Link>
             </nav>
         </header>

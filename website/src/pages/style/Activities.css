@@ -1,0 +1,86 @@
+.activities {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity_picture {
+    position: relative;
+    overflow: hidden;
+}
+
+.activities img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.activity {
+    position: absolute;
+    height: 25rem;
+    width: 60rem;
+    background-color: white;
+    backdrop-filter: blur(100px);
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity .title {
+    font-size: 45pt;
+    color: black;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.activity .description {
+    font-size: 16pt;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+.read-more-button {
+    padding: 1rem;
+    background-color: #913547;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 10rem;
+}
+
+.read-more-button:hover {
+    background-color: #6b2433;
+}
+
+.navigation-buttons {
+    display: flex;
+    position: absolute;
+    /*z-index: 10;*/
+    gap: 63rem;
+}
+
+.nav-button {
+    background-color: #913547;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 36px;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #6b2433;
+}
