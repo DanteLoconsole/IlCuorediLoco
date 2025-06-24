@@ -17,9 +17,17 @@ function Gallery() {
     return (
         <div className="gallery">
             <div className="slider">
-                <ImageGallery items={images} showPlayButton={true} />
+                <ImageGallery
+                    items={images}
+                    showBullets={true}
+                    showPlayButton={true}
+                    showIndex={true}
+                    showFullscreenButton={true}
+                    showNav={true}
+                    showThumbnails={true}
+                />
                 <p>
-                    Pictures by <a href="https://example.com">Dante Loconsole</a>
+                    Pictures by <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1&mute=1">Dante Loconsole</a>
                 </p>
             </div>
         </div>
