@@ -19,12 +19,21 @@ function Home() {
                 <p>{Data.p3}</p>
             </section>
 
+            <div className="instagram_widget">
+                <script src={"https://cdn.lightwidget.com/widgets/lightwidget.js"}/>
+                <iframe
+                    src="https://cdn.lightwidget.com/widgets/8ced8ffe07275bcd92b6256e9f70f430.html"
+                    allowTransparency={true}
+                    className="lightwidget-widget"
+                ></iframe>
+            </div>
+
             <section className="newsletter">
-                <h1>Op de hoogte blijven via onze nieuwsletter?</h1>
-                <h2>Schrijf je hier in.</h2>
+                <p style={{fontWeight: "bold"}}>Op de hoogte blijven via onze nieuwsletter?</p>
+                <p>Schrijf je hier in.</p>
                 <form>
-                    <input type="text" placeholder="Naam" />
-                    <input type="email" placeholder="E-mailadres" />
+                    <input type="text" placeholder="Naam" required/>
+                    <input type="email" placeholder="E-mailadres" required/>
                     <button type="submit">Inschrijven</button>
                 </form>
             </section>
