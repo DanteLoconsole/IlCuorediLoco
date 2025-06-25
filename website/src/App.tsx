@@ -9,7 +9,7 @@ import Contact from "./pages/Contact.tsx";
 
 function App() {
     return (
-        <>
+        <div className="page_container">
             <Header />
             <main>
                 <Routes>
@@ -21,7 +21,7 @@ function App() {
                 </Routes>
             </main>
             <Footer />
-        </>
+        </div>
     );
 }
 
