@@ -2,10 +2,6 @@ import { useState } from 'react';
 import './style/Activities.css'
 import Data from '../assets/text/activities.json';
 
-// type Activity = {
-//     title: string;
-//     description: string;
-// };
 
 function Activities() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,10 +25,10 @@ function Activities() {
                 <h1 className="title">{Data[currentIndex].title}</h1>
                 <p className="description">{Data[currentIndex].description}</p>
                 <button className="read-more-button">Lees meer</button>
-            </div>
-            <div className="navigation-buttons">
-                <button onClick={handlePrevious} className="nav-button">&lt;</button>
-                <button onClick={handleNext} className="nav-button">&gt;</button>
+                <div className="navigation-buttons">
+                    <button onClick={handlePrevious} className="nav-button">&lt;</button>
+                    <button onClick={handleNext} className="nav-button">&gt;</button>
+                </div>
             </div>
         </div>
     )

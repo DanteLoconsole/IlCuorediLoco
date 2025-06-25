@@ -10,9 +10,10 @@
 }
 
 .gallery .slider {
-    max-width: 900px;
+    width: 60%;
 }
 
 .gallery p {
     font-size: 0.9rem;
+    margin-top: 0;
 }
