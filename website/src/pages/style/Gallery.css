@@ -1,7 +1,11 @@
 .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #f5f5f5;
     position: relative;
-    height: 83.5vh;
+    height: 100vh;
     align-content: end;
 }
 

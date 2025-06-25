@@ -4,14 +4,16 @@ import {Link} from "react-router-dom";
 function Header() {
     return (
         <header className="header">
-            <img src="/logo_trans.svg" alt="Logo" className="logo" />
+            <a href="/">
+                <img src="/logo_trans.svg" alt="Logo" className="logo" />
+            </a>
             <nav className="nav">
                 <Link to="/">Home</Link>
                 <Link to="/">Info & boeken</Link>
                 <Link to="/gallery">Galerij</Link>
                 <Link to="/story">Ons verhaal</Link>
                 <Link to="/activities">Wat te doen?</Link>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
         </header>
     )
