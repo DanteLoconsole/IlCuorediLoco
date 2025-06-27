@@ -4,18 +4,55 @@ body {
 
 .footer {
     position: absolute;
-    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    bottom: 0;
     background-color: #e6e6e6;
-    width: 100%;
-    z-index: 10;
     color: #333333;
 }
 
-.socials .logo {
-    height: 60px;
+.footer-container {
+    position: relative;
+    max-width: 1120px;
+    padding: 1.5rem 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s;
+    gap: 0.1rem;
+}
+
+.footer-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    text-align: center;
 }
