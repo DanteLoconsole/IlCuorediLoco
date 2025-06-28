@@ -1,6 +1,6 @@
 .header {
-    background-color: white;
-    position: relative;
+    position: absolute;
+    background-color: transparent;
     z-index: 10;
     width: 100%;
     border-bottom: gray 1px solid;
@@ -12,6 +12,7 @@
     padding: 1rem 1.5rem;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(100px);
 }
 
 .logo-link {
@@ -93,7 +94,7 @@
     bottom: 0;
     right: 0;
     width: 100%;
-    max-width: 24rem;
+    max-width: 40%;
     overflow-y: auto;
     background-color: white;
     padding: 1.5rem;
