@@ -4,7 +4,7 @@ import "./Header.css";
 
 const navigation = [
     { name: "Home", href: "/" },
-    { name: "Info & boeken", href: "/" },
+    { name: "Info & boeken", href: "/404" },
     { name: "Galerij", href: "/gallery" },
     { name: "Verhaal", href: "/story" },
     { name: "Wat te doen?", href: "/activities" },

@@ -6,6 +6,7 @@ import Footer from "./assets/footer/Footer.tsx";
 import Activities from "./pages/Activities.tsx";
 import Story from "./pages/Story.tsx";
 import Contact from "./pages/Contact.tsx";
+import NotFoundPage from "./pages/404.tsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/activities" element={<Activities />} />
                     <Route path="/story" element={<Story />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/404" element={<NotFoundPage />} />
                 </Routes>
             </main>
             <Footer />
