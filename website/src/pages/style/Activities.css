@@ -11,7 +11,7 @@
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 45%;
+    margin-top: 3.5rem;
 }
 
 .activities img {
@@ -21,7 +21,7 @@
 
 .activity {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 25rem;

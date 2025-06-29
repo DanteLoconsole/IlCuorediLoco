@@ -12,9 +12,9 @@
     gap: 40px;
     padding: 80px 20px;
     max-width: 900px;
-    margin: 0 auto;
-    background-color: #913547;
+    background-color: #389f98;
     border-radius: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
 }
 
 .contact-info {
@@ -30,9 +30,11 @@
     margin-bottom: 20px;
 }
 
-.map-container {
-    /*border-radius: 15px;*/
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    /*margin-left: 20rem;*/
+.map {
+    /*width: 450px;*/
+    /*height: 450px;*/
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
 }

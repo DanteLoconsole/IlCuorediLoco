@@ -12,7 +12,7 @@
   {
     "title": "E-bike tours door de vallei",
     "description": "Verken de glooiende heuvels, trulli en olijfboomgaarden per e-bike. Er zijn prachtige routes richting Alberobello, Martina Franca en Cisternino – allemaal op korte afstand.",
-    "image": "/activities/ebike.jpeg"
+    "image": "/activities/ebike.jpg"
   },
   {
     "title": "Panoramisch uitzicht vanaf Via Nardelli",
@@ -35,8 +35,8 @@
     "image": "/activities/restaurant.jpg"
   },
   {
-    "title": "Bezoek een oliemolen in Cisternino",
-    "description": "",
-    "image": ""
+    "title": "Verken de olijvencultuur",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "/activities/olives.jpg"
   }
 ]
