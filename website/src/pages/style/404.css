@@ -27,13 +27,6 @@
     font-weight: 600;
 }
 
-@media (min-width: 640px) {
-    .notfound-title {
-        font-size: 3.75rem; /* sm:text-6xl = ~60px */
-        line-height: 1.2;
-    }
-}
-
 .notfound-message {
     font-weight: 500;
     color: #333333;
@@ -41,9 +34,11 @@
 }
 
 @media (min-width: 640px) {
+    .notfound-title {
+        font-size: 3.75rem;
+    }
     .notfound-message {
-        font-size: 1.25rem; /* sm:text-xl = ~20px */
-        line-height: 2rem; /* /8 = line-height 2rem */
+        font-size: 1.25rem;
     }
 }
 
