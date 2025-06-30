@@ -1,10 +1,20 @@
 .notfound {
     background-color: #f5f5f5;
-    height: calc(100vh - 65px);
+    height: calc(100vh - 105px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .notfound {
+        height: calc(100vh - 65px);
+    }
+}
+@media screen and (max-height: 360px){
+    .notfound {
+        padding: 2rem 0;
+    }
 }
 
 .notfound-container {
@@ -13,6 +23,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .notfound-code {
@@ -33,7 +44,7 @@
     opacity: 0.7;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
     .notfound-title {
         font-size: 3.75rem;
     }
