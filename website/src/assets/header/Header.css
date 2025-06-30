@@ -4,6 +4,7 @@
     width: 100%;
     border-bottom: gray 1px solid;
     color: #333333;
+    min-width: 225px;
 }
 
 .nav {

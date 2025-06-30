@@ -27,7 +27,7 @@ function Gallery() {
                     showThumbnails={true}
                 />
                 <p>
-                    Pictures by <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1&mute=1">Dante Loconsole</a>
+                    Pictures by <a href="/404">Dante Loconsole</a>
                 </p>
             </div>
         </div>
