@@ -7,6 +7,7 @@ import Activities from "./pages/Activities.tsx";
 import Story from "./pages/Story.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFoundPage from "./pages/404.tsx";
+import NoContentPage from "./pages/204.tsx";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/story" element={<Story />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/404" element={<NotFoundPage />} />
+                    <Route path="/204" element={<NoContentPage />} />
                 </Routes>
             </main>
             <Footer />

@@ -4,7 +4,7 @@ import "./Header.css";
 
 const navigation = [
     { name: "Home", href: "/" },
-    { name: "Info & boeken", href: "/404" },
+    { name: "Info & boeken", href: "/204" },
     { name: "Galerij", href: "/gallery" },
     { name: "Verhaal", href: "/story" },
     { name: "Wat te doen?", href: "/activities" },
@@ -74,7 +74,7 @@ export default function Header() {
                     ))}
                 </div>
                 <div className="desktop-login">
-                    <a href="#" className="desktop-link">
+                    <a href="/204" className="desktop-link">
                         Log in <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -117,7 +117,7 @@ export default function Header() {
                                     </a>
                                 ))}
                             </div>
-                            <a href="#" className="mobile-login-link">
+                            <a href="/204" className="mobile-login-link">
                                 Log in <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>

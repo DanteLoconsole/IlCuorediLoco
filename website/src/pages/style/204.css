@@ -1,0 +1,52 @@
+.nocontent {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nocontent-container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nocontent-code {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+.nocontent-title {
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.nocontent-message {
+    font-weight: 500;
+    color: #333333;
+    opacity: 0.7;
+}
+
+@media (min-width: 640px) {
+    .nocontent-title {
+        font-size: 3.75rem;
+    }
+    .nocontent-message {
+        font-size: 1.25rem;
+    }
+}
+
+.notfound-link-container {
+    margin-top: 2.5rem;
+}
+
+.notfound-link {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
