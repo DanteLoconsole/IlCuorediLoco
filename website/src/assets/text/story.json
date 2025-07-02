@@ -3,31 +3,38 @@
   "story": [
     {
       "date": "1948",
-      "sentence": "Onze grootouders verlieten hun geliefde Puglia om in België een nieuw leven op te bouwen."
+      "sentence": "Onze grootouders verlieten hun geliefde Puglia om in België een nieuw leven op te bouwen.",
+      "picture": "/story/vakantie.jpg"
     },
     {
       "date": "?",
-      "sentence": "Nonno werkte in de koolmijn van Beringen, terwijl Nonna zorgde voor het gezin."
+      "sentence": "Nonno werkte in de koolmijn van Beringen, terwijl Nonna zorgde voor het gezin.",
+      "picture": "/story/mijn.jpg"
     },
     {
       "date": "?",
-      "sentence": "Met hun twee zonen, Leo en Franco, brachten ze de warmte en smaken van Italië mee naar huis."
+      "sentence": "Met hun twee zonen, Leo en Franco, brachten ze de warmte en smaken van Italië mee naar huis.",
+      "picture": "/story/eten.jpg"
     },
     {
       "date": "?",
-      "sentence": "De liefde voor Puglia werd ons met de paplepel ingegeven – elke zondag gezellig met zijn allen rond de keukentafel."
+      "sentence": "De liefde voor Puglia werd ons met de paplepel ingegeven – elke zondag gezellig met zijn allen rond de keukentafel.",
+      "picture": "/story/3.jpg"
     },
     {
       "date": "?",
-      "sentence": "Elke zomer keerden we terug naar hun geboortestreek, waar hun roots liggen."
+      "sentence": "Elke zomer keerden we terug naar hun geboortestreek, waar hun roots liggen.",
+      "picture": "/story/3.jpg"
     },
     {
       "date": "?",
-      "sentence": "Jaren later herontdekten we Puglia met onze eigen kinderen, en werden opnieuw verliefd op dit betoverende stukje Italië."
+      "sentence": "Jaren later herontdekten we Puglia met onze eigen kinderen, en werden opnieuw verliefd op dit betoverende stukje Italië.",
+      "picture": "/story/3.jpg"
     },
     {
       "date": "?",
-      "sentence": "Vandaag willen we die passie met jullie delen. Welkom in onze B&B, waar we jullie graag de mooiste plekjes van de laars laten ontdekken."
+      "sentence": "Vandaag willen we die passie met jullie delen. Welkom in onze B&B, waar we jullie graag de mooiste plekjes van de laars laten ontdekken.",
+      "picture": "/story/3.jpg"
     }
   ]
 }

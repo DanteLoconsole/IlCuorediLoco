@@ -13,8 +13,16 @@ function Story() {
                 >
                     {Data.story.map((sentence) => (
                         <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'white', color: '#389f98' }}
+                            className="vertical-timeline-element"
+                            contentStyle={{
+                                background: 'white',
+                                border: "1px solid #e3e3e3",
+                                color: '#389f98',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                            }}
                             contentArrowStyle={{ borderRight: '7px solid white' }}
                             date={sentence.date}
                             iconStyle={{ background: '#a6e3d5' }}
@@ -24,6 +32,7 @@ function Story() {
                             }}
                         >
                             <p style={{margin:0}}>{sentence.sentence}</p>
+                            <img className="story_picture" src={sentence.picture} alt="Story" />
                         </VerticalTimelineElement>
                     ))}
                 </VerticalTimeline>
