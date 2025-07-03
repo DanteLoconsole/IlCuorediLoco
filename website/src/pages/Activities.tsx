@@ -19,12 +19,17 @@ function Activities() {
     return (
         <div className="activities">
             <div className="activity_picture">
-                <img src={Data[currentIndex].image} alt="Activity1" />
-            </div>
-            <div className="activity">
-                <h1 className="title">{Data[currentIndex].title}</h1>
-                <p className="description">{Data[currentIndex].description}</p>
-                <button className="read-more-button">Lees meer</button>
+                <img src={Data[currentIndex].image} alt="Activity" />
+
+                <div className="activity">
+                    <h1 className="title">{Data[currentIndex].title}</h1>
+                    <p className="description">{Data[currentIndex].description}</p>
+                    <button className="read-more-button">
+                        <a href="https://pasqua.viaggiareinpuglia.it/en/dettaglio-infopoint/info-point-locorotondo" target="_blank" rel="noreferrer">
+                            Lees meer
+                        </a>
+                    </button>
+                </div>
                 <div className="navigation-buttons">
                     <button onClick={handlePrevious} className="nav-button">&lt;</button>
                     <button onClick={handleNext} className="nav-button">&gt;</button>

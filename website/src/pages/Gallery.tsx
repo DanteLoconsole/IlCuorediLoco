@@ -27,7 +27,7 @@ function Gallery() {
                     showThumbnails={true}
                 />
                 <p>
-                    Pictures by <a href="/404">Dante Loconsole</a>
+                    Pictures by <a href="https://www.pregioimmobiliareitalia.it/" target="_blank" rel="noreferrer">Pregio Immobiliare Italia</a>
                 </p>
             </div>
         </div>

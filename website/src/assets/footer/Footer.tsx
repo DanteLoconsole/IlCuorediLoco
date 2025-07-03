@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                         </a>
                     ))}
                 </div>
-                <p className="footer-text">&copy; 2024 Dante Loconsole, Inc. All rights reserved.</p>
+                <p className="footer-text">&copy; 2024 <a href="mailto:danteloconsole@gmail.com" target="_blank" rel="noreferrer">Dante Loconsole</a>, Inc. All rights reserved.</p>
             </div>
         </footer>
     );

@@ -1,33 +1,48 @@
 .activities {
     background-color: #f5f5f5;
-    height: calc(100vh - 65px);
+    height: calc(100vh - 105px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
+    min-width: 225px;
+    min-height: 370px;
+}
+@media (min-width: 768px) {
+    .activities {
+        height: calc(100vh - 65px);
+    }
 }
 
 .activity_picture {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    width: 100vw;
-    margin-top: 3.5rem;
+    margin-top: 72px;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 1024px){
+    .activity_picture {
+        margin-top: 56px;
+    }
 }
 
 .activities img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .activity {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 25rem;
-    width: 60rem;
+    height: 55%;
+    width: 60%;
+    max-height: 400px;
     background-color: #f5f5f5;
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.70);
     text-align: center;
@@ -35,45 +50,87 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow: scroll;
+    color: #333333;
 }
 
-.activity .title {
-    position: relative;
-    top: 1rem;
-    font-size: 45pt;
-    color: #333333;
+.title {
+    font-size: 20pt;
     margin: 0;
 }
 
-.activity .description {
-    font-size: 16pt;
-    color: #333333;
+.description {
+    font-size: 11pt;
 }
 
 .read-more-button {
-    position: relative;
-    /*bottom: 1rem;*/
-    padding: 1rem;
+    bottom: 1rem;
+    padding: 0.5rem;
     background-color: #389f98;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 10pt;
     border-radius: 6px;
-    width: 10rem;
 }
 
 .read-more-button:hover {
     background-color: #28716c;
 }
 
+@media screen and (min-width: 425px){
+    .activities {
+        min-height: 290px;
+    }
+    .activity {
+        height: 45%;
+    }
+    .read-more-button {
+        padding: 0.75rem;
+    }
+}
+@media screen and (min-width: 600px){
+    .title {
+        font-size: 22pt;
+    }
+    .description {
+        font-size: 13pt;
+    }
+}
+@media screen and (min-width: 768px){
+    .title {
+        font-size: 24pt;
+    }
+    .description {
+        font-size: 14pt;
+    }
+    .read-more-button {
+        font-size: 12pt;
+    }
+}
+@media screen and (min-width: 1024px){
+    .title {
+        font-size: 30pt;
+    }
+    .description {
+        font-size: 16pt;
+    }
+    .read-more-button {
+        padding: 1rem;
+    }
+}
+@media screen and (min-width: 1500px){
+    .title {
+        font-size: 34pt;
+    }
+}
+
 .navigation-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 105%;
+    gap: 61vw;
     position: absolute;
-    top: 45%;
 }
 
 .nav-button {
