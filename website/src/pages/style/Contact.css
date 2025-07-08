@@ -6,17 +6,17 @@
     background-color: #f5f5f5;
     height: calc(100vh - 105px);
     min-width: 225px;
-    min-height: 750px;
+    min-height: 760px;
 }
 @media screen and (min-width: 380px) {
     .contact {
-        min-height: 750px;
+        min-height: 780px;
     }
 }
 @media screen and (min-width: 768px) {
     .contact {
         height: calc(100vh - 65px);
-        min-height: 720px;
+        min-height: 755px;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -78,10 +78,12 @@
 .contact-details {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: left;
     font-size: 1rem;
     color: #333333;
     opacity: 0.7;
+    height: 10rem;
 }
 
 .contact-detail {
