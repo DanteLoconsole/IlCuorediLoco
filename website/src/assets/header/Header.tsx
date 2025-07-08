@@ -52,7 +52,7 @@ export default function Header() {
                     <a href="/" className="logo-link">
                         <span className="sr-only">Il Cuore di Loco</span>
                         <img
-                            src="/public/logo_trans.svg"
+                            src="/logo_trans.svg"
                             alt=""
                             className="logo-img"
                         />
