@@ -64,16 +64,12 @@ const Contact: React.FC = () => {
 
                  {/*Right side form*/}
                 <div className="map-info">
-                    <div className="map">
-                        <iframe
-                            title="Il Cuore di Loco"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.441068955232!2d17.327177476691332!3d40.75232277138754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346528471ede6f9%3A0x500d81d7fca67efd!2sVia%20Giuseppe%20Verdi%2C%2023%2C%2070010%20Locorotondo%20BA%2C%20Italy!5e0!3m2!1sen!2sbe!4v1750794375581!5m2!1sen!2sbe"
-                            loading="lazy"
-                            allowFullScreen={true}
-                            referrerPolicy="no-referrer-when-downgrade"
-                        >
-                        </iframe>
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4416876300998!2d17.32488188806878!3d40.75230916138379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134653002b960eb9%3A0xef53facff404a54e!2sIl%20Cuore%20di%20Loco!5e0!3m2!1sen!2sbe!4v1751997914300!5m2!1sen!2sbe"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
                 </div>
             </div>
         </div>
