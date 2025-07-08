@@ -19,14 +19,18 @@
 
 .story_picture {
     margin-top: 1rem;
+    height: auto;
+    width: auto;
+    max-width: 90%;
 }
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 375px) {
     .story_picture {
-        width: 90%;
+        max-width: 70%;
     }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     .story_picture {
+        max-width: 60%;
         max-height: 400px;
     }
 }
