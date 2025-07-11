@@ -20,12 +20,8 @@ function Home() {
             </section>
 
             <div className="instagram_widget">
-                <script src={"https://cdn.lightwidget.com/widgets/lightwidget.js"} />
-                <iframe
-                    src="https://cdn.lightwidget.com/widgets/8ced8ffe07275bcd92b6256e9f70f430.html"
-                    allowTransparency={false}
-                    className="lightwidget-widget"
-                ></iframe>
+                <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+                <iframe src="https://cdn.lightwidget.com/widgets/8ced8ffe07275bcd92b6256e9f70f430.html" className="lightwidget-widget"/>
             </div>
 
             <section className="newsletter">
